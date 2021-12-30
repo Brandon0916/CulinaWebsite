@@ -151,7 +151,7 @@ a:hover, a:active, a:focus {
 	border: 0;
 }
 
-#about, #work,
+#about, #work,#career
 #contact {
   position: relative;
   padding-top: 80px;
@@ -411,6 +411,50 @@ a:hover, a:active, a:focus {
 	  
   }
 
+/*---------------------------------------
+  Career section              
+-----------------------------------------*/
+
+#career {
+	border-top: 1px solid #f0f0f0;
+	padding-top: 80px;
+	padding-bottom: 60px;
+  }
+  #about .section-title {
+	margin-top: 22px;
+	text-align: center;
+  }
+  
+  #career .section-title {
+	padding-bottom: 16px;
+  }
+
+  #career .inner .boxs{
+	  margin-left: -40px ;
+  }
+
+  #career .inner{
+	  padding-top: 8em;
+  }
+
+  #career .inner .container{
+	  width: 800 px;
+  }
+
+  #career .inner .box{
+	  width: 240px;
+	  float: left;
+	  margin-left: 40px;
+	  margin-top: 60px;
+	  padding: 20px;
+	  height: 260px;
+	  overflow: hidden;
+	  background: #292727;
+  }
+  
+  
+  
+  
 
 /*---------------------------------------
   What I do section              
